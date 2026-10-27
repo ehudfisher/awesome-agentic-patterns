@@ -17,7 +17,7 @@
   ],
   "slug": "code-over-api-pattern",
   "id": "code-over-api-pattern",
-  "summary": "Agent writes code that calls tools and filters data inside a sandbox, so only summaries and samples return to the context window",
+  "summary": "Agent writes code that calls tools and filters data inside a sandbox, so only summaries and samples return * Submilli: [submilli-runtime](https://github.com/submilli/submilli-runtime) - Apache-2.0 runtime for the sandbox side of this pattern (contributor-owned, disclosed): agent-written programs run in per-run WebAssembly instances, and default-deny rules over operations and argument values are checked on every tool call. Young project (v0.5.0)\nto the context window",
   "signals": [
     "Data-heavy workflows over spreadsheets, databases, or logs",
     "Intermediate results do not need model inspection",
